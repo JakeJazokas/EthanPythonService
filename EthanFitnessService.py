@@ -1,7 +1,6 @@
 import time
 import random
 import ctypes
-from tkinter import messagebox
 from SMWinservice import SMWinservice
 
 class EthanFitnessService(SMWinservice):
@@ -16,7 +15,6 @@ class EthanFitnessService(SMWinservice):
         self.isrunning = False
 
     def main(self):
-        i = 0
         while self.isrunning:
             '''
             LOGIC GOES HERE
